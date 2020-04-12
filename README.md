@@ -1,5 +1,5 @@
 # index.php-file-for-the-irc-YoutubeTitle.tcl-script
-index.php file for the data required by the IRC YoutubeTitle.tcl script
+index.php file for the data required by the IRC YoutubeTitle.tcl script for the Eggdrop bot.
 
 A quick and dirty fix for the parameters needed for the YoutubeTitle.tcl script (https://github.com/DanielVoipan/black-tcl/blob/master/YoutubeTitle.tcl) based on the Google Youtube API (https://developers.google.com/youtube/v3/). 
 
