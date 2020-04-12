@@ -1,6 +1,6 @@
 <?php
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-           //              A quick and dirty fix for the parameters needed for the YoutubeTitle.tcl script            //
+           //    A quick and dirty fix for the parameters needed for the YoutubeTitle.tcl script for the Eggdrop bot  //
           //              (https://github.com/DanielVoipan/black-tcl/blob/master/YoutubeTitle.tcl) based on          //
          //                the Google Youtube API (https://developers.google.com/youtube/v3/).                      //
         //                               A YT API key is needed to run this script!                                //
