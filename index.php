@@ -116,6 +116,8 @@ if (strpos($durationX, "H") !== false) {
    $stukkie3 = explode("M", $stukkie[1]);
    $mins = $stukkie3[0];            
    $playtime = "PT".($mins+$extramins)."M".$stukkie3[1];
+} else {
+   $playtime = $durationX;
 }
 
 // convert Likes/DisLikes into percentage
