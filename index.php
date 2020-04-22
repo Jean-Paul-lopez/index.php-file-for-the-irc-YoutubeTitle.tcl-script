@@ -39,6 +39,17 @@ if ($_GET['link']) {
     $vidID = str_replace('https://youtu.be/', "", $link);
   }
 
+// remove dash ("-") before ID, else it won't work.
+  if ($vidID[0] == "-") {
+    $teller = 1;
+    $videoID = "";
+    while ($vidID[$teller] != NULL) {
+      $videoID.=$vidID[$teller];
+      $teller++;
+    }
+    $vidID = $videoID;
+  }
+	
   $youtube = new Google_YoutubeService($client);
 
   try {
