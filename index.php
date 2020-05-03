@@ -37,6 +37,10 @@ if ($_GET['link']) {
 
   if (strpos($link, 'https://youtu.be/') !== false) { 
     $vidID = str_replace('https://youtu.be/', "", $link);
+    if (strpos($vidID, '?list=') !== false) {
+      $stukkie = explode("?", $vidID);
+      $vidID = $stukkie[0];
+    }	  
   }
 
 // remove dash ("-") before ID, else it won't work.
